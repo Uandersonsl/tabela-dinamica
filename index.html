@@ -19,11 +19,11 @@
     <div>
         <form id="cadastro-login" action="">
 
-            Nome: <input id="nome" type="text" onfocus="this.value=''"> <br>
-            Idade: <input id="idade" type="number" min="0" onfocus="this.value=''"> <br>
-            Bairro: <input id="bairro" type="text" onfocus="this.value=''"> <br>
-            Rua: <input id="rua" type="text" onfocus="this.value=''"> <br>
-            Numero: <input id="numero" type="number" min="0" onfocus="this.value=''"> <br><br>
+            Nome: <input id="nome" type="text"> <br>
+            Idade: <input id="idade" type="number" min="0"> <br>
+            Bairro: <input id="bairro" type="text"> <br>
+            Rua: <input id="rua" type="text"> <br>
+            Numero: <input id="numero" type="number" min="0"> <br><br>
             <input id="btn-cadastrar" type="button" value="Cadastrar">
             <br>
 
@@ -31,23 +31,26 @@
     </div> <br><br>
 
     <div>
+        <center>
+            <table id="tabela-pessoas">
+                <thead>
+                    <tr>
 
-        <table id="tabela-pessoas">
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Idade</th>
-                    <!-- Endereço deve ser montado com os seguintes campos
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <!-- Endereço deve ser montado com os seguintes campos
                      rua, numero exemplo: rua xpto n°54  -->
-                    <th>Endereço</th>
-                    <th>Bairro</th>
-                </tr>
-            </thead>
-            <tbody>
+                        <th>numero</th>
+                        <th>Bairro</th>
+                        <th>rua</th>
 
-            </tbody>
-        </table>
+                    </tr>
+                </thead>
+                <tbody>
 
+                </tbody>
+            </table>
+        </center>
     </div>
 
     <script src="./js/index.js"></script>
